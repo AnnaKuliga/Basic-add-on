@@ -1,0 +1,17 @@
+body {
+  background-image: url(https://www.terazkrosno.pl/images/rrrcontent/images/larges/w-czarnorzekach-powstanie-trzynastometrowa-wieza-widokowa_7429_nsLHbq.jpg);
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header {
+  background: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  margin: 50px 50px;
+  padding: 15px;
+  border-radius: 10px;
+}
+.header h1,
+h2 {
+  color: rgba(56, 40, 40, 0.918);
+}

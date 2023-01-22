@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS manipulation</title>
+    <style>
+      .btn-dark {
+        color: white;
+        background-color: black;
+        font-size: 25px;
+        padding: 20px;
+        margin: 15px;
+      }
+      .btn-white {
+        color: black;
+        background-color: white;
+        font-size: 25px;
+        padding: 20px;
+        margin: 15px;
+      }
+      body {
+        background-color: antiquewhite;
+      }
+      .dark {
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body class="">
+    <div class="main">
+      <button class="btn-dark">Dark theme</button>
+    </div>
+    <script>
+      function changeTheme() {
+        let background = document.querySelector("body");
+        background.classList.add("dark");
+        let btn = document.querySelector("button");
+        btn.classList.add("btn-white");
+      }
+
+      let button = document.querySelector("button");
+      button.addEventListener("click", changeTheme);
+    </script>
+  </body>
+</html>
